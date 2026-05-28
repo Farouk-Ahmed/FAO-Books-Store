@@ -133,47 +133,47 @@ Each screenshot below is one part of the app.
 
 ### 1. Home (Hero)
 
-![Home page](docs/media/home.png)
+![Home page](docs/media/home.jpeg)
 
 The first screen. A large headline, a live countdown to the next release, and a silent background video that autoplays. The pre-headline and title arrive with a "rise out of a glowing slit" animation, and the columns slide in from the screen edges once the video actually starts. Right below sits the featured book card.
 
 ### 2. Catalog
 
-![Catalog](docs/media/catalog.png)
+![Catalog](docs/media/catalog.jpeg)
 
 Six tech books across five categories: architecture, systems, frontend, AI, and backend. There's an instant search box, category filters, and a sort dropdown. Each card shows the rating, review count, tags, and price.
 
-### 3. Book detail
+### 3. Cart
 
-![Book detail modal](docs/media/book-detail.png)
-
-A modal that opens when you click a book. It carries the synopsis, the key features, rating and page count, the price, and the add-to-cart button.
-
-### 4. Cart
-
-![Cart drawer](docs/media/cart.png)
+![Cart drawer](docs/media/cart.jpeg)
 
 A slide-in drawer. Adjust quantities, remove items, watch the total update live, and head to checkout — which opens the wallet connection.
 
-### 5. Services
+### 4. Services
 
-![Services](docs/media/services.png)
+![Services](docs/media/services.jpeg)
 
 Six services explaining what makes buying here different: live code sandboxes, download in any format, direct author Q&A, team and company portals, a private channel per book, and print editions shipped worldwide.
 
-### 6. Wallet connection
+### 5. Wallet connection
 
-![Wallet modal](docs/media/wallet.png)
+![Wallet modal](docs/media/wallet.jpeg)
 
 A simulated Web3 connection modal with MetaMask, Coinbase, WalletConnect, and Phantom. Connecting keeps a purchase tied to the wallet.
 
-### 7. Arabic (RTL)
+### 6. Wallet authorization
 
-![Arabic RTL home](docs/media/rtl-home.png)
+![Wallet authorization](docs/media/wallet-auth.jpeg)
 
-The same site in Arabic. The layout mirrors right-to-left, the font switches, and the directional icons flip. One toggle in the header swaps the whole experience.
+After picking a provider, a handshake step authorizes secure access and asks you to approve the signature request in your wallet app.
 
-> There's also a Contact section (a terminal-styled form) reachable from the nav — no separate screenshot, but it shares the same visual language.
+### 7. Contact
+
+![Contact](docs/media/contact.jpeg)
+
+A terminal-styled contact form for team licensing questions, author pitches, and print-shipment issues, alongside the primary comms terminal with email and office details.
+
+> A book detail modal (synopsis, features, rating, page count, add-to-cart) and a full Arabic RTL layout are also part of the app — the same visual language applies, even though they aren't captured above.
 
 ---
 
