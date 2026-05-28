@@ -163,6 +163,18 @@ import { WalletModalComponent } from './components/wallet-modal.component';
             </div>
 
           </div>
+
+          <div class="mt-10 pt-6 border-t border-white/[0.05] text-center">
+            <p class="text-[10px] font-mono text-gray-500">
+              Crafted with <span class="text-neon-pink">❤️</span>
+              <a
+                href="https://github.com/Farouk-Ahmed"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-gray-400 hover:text-neon-pink transition-colors"
+              >Farouk-Ahmed</a>
+            </p>
+          </div>
         </div>
       </footer>
 
