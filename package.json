@@ -1,0 +1,42 @@
+{
+  "name": "neonmorphic-bookstore",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ng serve --port=3000 --host=0.0.0.0 --disable-host-check",
+    "build": "ng build --configuration=production",
+    "preview": "ng serve --port=3000 --host=0.0.0.0 --disable-host-check",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.3.12",
+    "@angular/common": "^17.3.12",
+    "@angular/compiler": "^17.3.12",
+    "@angular/core": "^17.3.12",
+    "@angular/forms": "^17.3.12",
+    "@angular/platform-browser": "^17.3.12",
+    "@angular/platform-browser-dynamic": "^17.3.12",
+    "@angular/router": "^17.3.12",
+    "dotenv": "^17.2.3",
+    "lucide-angular": "^0.346.0",
+    "motion": "^12.23.24",
+    "rxjs": "^7.8.2",
+    "vite": "^6.2.3",
+    "zone.js": "^0.14.10"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.17",
+    "@angular/cli": "^17.3.17",
+    "@angular/compiler-cli": "^17.3.12",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.4.5",
+    "vite": "^6.2.3"
+  }
+}
