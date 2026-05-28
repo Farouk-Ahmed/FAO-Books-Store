@@ -109,7 +109,7 @@ import { WalletModalComponent } from './components/wallet-modal.component';
               </p>
               
               <span class="text-[10px] font-mono text-gray-600 block pt-1">
-                {{ lang.isRtl() ? '© ٢٠٢٦ مكتبة نيونمورفيك للكتب البرمجية. جميع الحقوق والبيانات محفوظة.' : '© 2026 NEONMORPHIC BOOKSTORE. ALL DATA INTEGRATED SECURELY.' }}
+                {{ lang.isRtl() ? '© ٢٠٢٦ FAO Books. جميع الحقوق محفوظة.' : '© 2026 FAO Books. All rights reserved.' }}
               </span>
             </div>
 

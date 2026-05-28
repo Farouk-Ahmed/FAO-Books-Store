@@ -132,7 +132,7 @@ export interface TranslationSchema {
 export const TRANSLATIONS: Record<Language, TranslationSchema> = {
   en: {
     brandName: 'FAO',
-    brandMorphic: 'Books Store',
+    brandMorphic: 'Books',
     connectWallet: 'Connect Wallet',
     disconnectWallet: 'Disconnect Node',
     walletConnected: 'Wallet Connected',
@@ -249,7 +249,7 @@ export const TRANSLATIONS: Record<Language, TranslationSchema> = {
   },
   ar: {
     brandName: 'FAO',
-    brandMorphic: 'متجر الكتب',
+    brandMorphic: 'كتب',
     connectWallet: 'ربط المحفظة',
     disconnectWallet: 'قطع الاتصال',
     walletConnected: 'المحفظة متصلة',

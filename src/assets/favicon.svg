@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="FAO Books">
+  <defs>
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#0d0d12"/>
+  <rect x="1.5" y="1.5" width="29" height="29" rx="7" fill="none" stroke="url(#border)" stroke-width="2"/>
+  <path
+    d="M9 8.5h9.5a1.5 1.5 0 0 1 1.5 1.5V23H10.5A1.5 1.5 0 0 0 9 24.5V8.5Z"
+    fill="#f43f5e"
+  />
+  <path
+    d="M9 8.5v16H8.25A1.25 1.25 0 0 1 7 23.25V10a1.5 1.5 0 0 1 1.5-1.5H9Z"
+    fill="#f43f5e"
+    opacity="0.75"
+  />
+  <path
+    d="M12 8.5V14l2-1.2 2 1.2V8.5"
+    fill="none"
+    stroke="#0d0d12"
+    stroke-width="1.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
